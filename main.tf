@@ -1,6 +1,6 @@
 # Configure the AWS Provider
 provider "aws" {
-  region = "ap-south-1a" # Change to your desired region
+  region = "ap-south-1" # Change to your desired region
 }
 
 # Create a VPC
