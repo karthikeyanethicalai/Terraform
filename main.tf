@@ -1,8 +1,8 @@
 provider "aws" {
   region = "ap-south-1" # Change to your desired region
 }
-
-# Create an EC2 Instance in Subnet ap-south-1a
+# test
+# Create an EC2 Instance in Subnet ap-south-1a 
 resource "aws_instance" "example_a" {
   ami           = "ami-0f346136f3b372267" # Change to your desired AMI
   instance_type = "t2.micro"
